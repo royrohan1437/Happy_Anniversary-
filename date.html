@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Anniversary Kutti🐩 </title>
+    <link rel="stylesheet" href="css/date.css" />
+  </head>
+  <body>
+    <h1 title="choose a date">Happy Anniversary Kutti🐩</h1>
+    <form class="form-group">
+      <label>Its Almost 5 years we are together</label>
+      <div class="box">
+        <p class="typewriter"><span id="text"></span><span class="cursor"></span></p>
+    </div>
+
+    <script>
+        const text = "I know I am not that great of your type, but believe me, I try my best to be the best for you. Amader moddhe prai 5 years hoye gelo 🥰😘😘😘dekhte dekhte koto years kete gelo😳😳 tao dekh ami kharap ei hoye jacchi😔😔😔😔ami  bhai sotti bhuli ni re amar mone chilo bhalo kore but ami aj sotti etota assignment korte giye uljhe gachilam je ami bujhei parini time chole jacche ar ami tokkhon Linux e chilam ar eita korte amake windows e aste hoto ar oita na hoa obdi ami windows e asteo parchilam na re. I am so so so so sorry Kutti🐩I really love you a lot ❤️ Ami jani tor mone hoi je ami toke bhalobashi na ektu o but serokom ektu o na re sotti bolchi re. Ami sotti toke khub bhalobashi  dekhate parina serokom kore re😔😔😔"; 
+        
+        let i = 0;
+        function typeWriter() {
+            if (i < text.length) {
+                document.getElementById("text").textContent += text.charAt(i);
+                i++;
+                setTimeout(typeWriter, 50); // Adjust speed here
+            } else {
+                document.querySelector(".cursor").style.display = "none"; // Hide cursor at the end
+            }
+        }
+
+        typeWriter();
+    </script>
+
+
+    </form>
+
+    <main class="container">
+      <section class="section">
+        <a class="button button--A" href="us.html">
+
+          <div class="glow_back"></div>
+          <div class="glow_front"></div>
+          <div class="twinkle_white"></div>
+          <div class="twinkle_color"></div>
+          <div class="reflection_top"></div>
+          <div class="reflection_bottom"></div>
+          <div class="shine"></div>
+          <div class="shine_shadow_R"></div>
+          <div class="shine_shadow_L"></div>
+          <span class="text">Next  </span>
+        </a>
+      </section>
+  </body>
+</html>
